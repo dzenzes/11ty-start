@@ -1,0 +1,24 @@
+{
+  "name": "11ty-start",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/dzenzes/11ty-start#readme",
+  "bugs": {
+    "url": "https://github.com/dzenzes/11ty-start/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dzenzes/11ty-start.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  }
+}
