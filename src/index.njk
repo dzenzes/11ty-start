@@ -1,0 +1,14 @@
+---
+layout: layout.njk
+title: Unsere erste 11ty Seite
+---
+
+<h1>Dies ist meine erste 11ty Seite</h1>
+
+<ul>
+    {% for post in collections.blog %}
+        <li>
+            <a href="{{ post.url }}">{{ post.data.title }}</a>
+        </li>
+    {% endfor %}
+</ul>
